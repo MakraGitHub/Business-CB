@@ -270,3 +270,83 @@ div {
 .slide-box .box2 .box2-2 .box2:hover img {
   transform: scale(1);
 }
+
+.left-box{
+  width: 70%;
+  float: left;
+  /* background-color: teal; */
+  margin-top: 10px;
+}
+
+.left-box .item-container{
+  width: 100%;
+  float: left;
+  /* background-color: pink; */
+}
+
+.left-box .item-container .title-box{
+  width: 100%;
+   float: left;
+   /* background-color: tomato; */
+   border-bottom: 2px solid green;
+}
+
+.left-box .item-container .title-box h1{
+  float: left;
+  font-size: 20px;
+  background-color: yellowgreen;
+  color: white;
+  padding: 8px 15px;
+  font-family: "Bayon", sans-serif;
+}
+
+.left-box .item-container .box{
+  width: 49.5%;
+  height: 330px;
+  float: left;
+  /* background-color: gray; */
+  
+}
+
+.left-box .item-container .box1 .txt-box{
+  width: 100%;
+  height: 30%;
+  float: left;
+  /* background-color: aqua; */
+}
+.left-box .item-container .box1 .txt-box h1{
+  font-size: 20px;
+}
+
+.left-box .item-container .box1 .txt-box h2{
+  font-size: 20px; 
+}
+
+.left-box .item-container .box1 .img-box{
+  width: 100%;
+  height: 70%;
+  float: left;
+  /* background-color: crimson; */
+  position: relative;
+  overflow: hidden;
+}
+.left-box .item-container .box1 .img-box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.left-box .item-container .box1 .img-box:hover img{
+  transform: scale(1.1);
+}
+
+.left-box .item-container .box2{
+  margin-left: 1%;
+}
+.right-box{
+    width: 29%;
+    float: left;
+    background-color: coral;
+    margin-top: 10px;
+    margin-left: 1%;
+}
